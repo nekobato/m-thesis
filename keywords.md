@@ -7,3 +7,4 @@ keywords
 - すれちがい
 - Bluetooth
 - Scattering Network
+- piconet
