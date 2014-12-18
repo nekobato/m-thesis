@@ -11,9 +11,9 @@
 *.dvi
 *-converted-to.*
 # these rules might exclude image files for figures etc.
-# *.ps
-# *.eps
-# *.pdf
+*.ps
+*.eps
+*.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -111,3 +111,4 @@ sympy-plots-for-*.tex/
 *.pdf
 
 node_modules
+.DS_Store

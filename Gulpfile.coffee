@@ -2,7 +2,7 @@ gulp = require 'gulp'
 exec = require 'gulp-exec'
 
 gulp.task 'compile', ->
-  gulp.src "main.tex"
+  gulp.src "tex/main.tex"
   .pipe exec 'platex  -kanji=utf8 main'
   .pipe exec 'pbibtex -kanji=utf8 main'
   .pipe exec 'platex  -kanji=utf8 main'
