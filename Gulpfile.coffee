@@ -3,10 +3,8 @@ exec = require 'gulp-exec'
 
 gulp.task 'compile', ->
   gulp.src "tex/main.tex"
-  .pipe exec 'platex  -kanji=utf8 main'
+  .pipe exec 'platex  -kanji=utf8 main > &1'
   .pipe exec 'pbibtex -kanji=utf8 main'
-  .pipe exec 'platex  -kanji=utf8 main'
-  .pipe exec 'platex  -kanji=utf8 main'
   .pipe exec 'dvipdfmx -p a4 main'
   .pipe exec 'open main.pdf'
   .pipe exec.reporter
