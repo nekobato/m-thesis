@@ -1,0 +1,83 @@
+platex    -kanji=utf8 main
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2014) (preloaded format=platex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2014/05/01> patch level 0)
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/platex/base/jreport.cls
+Document Class: jreport 2006/06/27 v1.6 Standard pLaTeX class
+(/usr/local/texlive/2014/texmf-dist/tex/platex/base/jsize11.clo)) (./thesis.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/platex/base/ascmac.sty
+(/usr/local/texlive/2014/texmf-dist/tex/platex/base/tascmac.sty))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/dvips.def)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty)
+No file main.aux.
+[1] [2] (./00_abstract.tex [1] [2] [3] [4])
+No file main.toc.
+[5]
+No file main.lof.
+[6]
+No file main.lot.
+[7] [8] (./01.tex
+第 1 章
+
+LaTeX Warning: Citation `Chen:2014:DEJ:2556288.2556955' on page 1 undefined on 
+input line 17.
+
+) [1] (./02.tex [2]
+第 2 章
+
+LaTeX Warning: Citation `firechat' on page 3 undefined on input line 13.
+
+) [3] (./03.tex) (./04.tex [4]
+第 3 章
+) [5] (./05.tex [6]
+第 4 章
+) [7] (./09_discussion.tex [8]
+第 5 章
+) [9]
+No file 10_conslusion.tex.
+(./90_acknowledgment.tex [10]) [11] (./91_bibliography.tex
+No file main.bbl.
+) (./92_appendix.tex [12]
+付 録 A  
+) [13] (./main.aux (./00_abstract.aux) (./01.aux) (./02.aux) (./03.aux)
+(./04.aux) (./05.aux) (./09_discussion.aux) (./10_conslusion.aux)
+(./90_acknowledgment.aux) (./91_bibliography.aux) (./92_appendix.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+Output written on main.dvi (23 pages, 6316 bytes).
+Transcript written on main.log.
+pbibtex   -kanji=utf8 main
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2014)
+The top-level auxiliary file: main.aux
+The style file: jplain.bst
+A level-1 auxiliary file: 00_abstract.aux
+A level-1 auxiliary file: 01.aux
+A level-1 auxiliary file: 02.aux
+A level-1 auxiliary file: 03.aux
+A level-1 auxiliary file: 04.aux
+A level-1 auxiliary file: 05.aux
+A level-1 auxiliary file: 09_discussion.aux
+A level-1 auxiliary file: 10_conslusion.aux
+A level-1 auxiliary file: 90_acknowledgment.aux
+A level-1 auxiliary file: 91_bibliography.aux
+A level-1 auxiliary file: 92_appendix.aux
+Database file #1: main.bib
+dvipdfmx  -p a4 main
+main -> main.pdf
+[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23]
+21399 bytes written
+/bin/rm -f *~ *.log *.dvi *.blg *.aux *.out *.bbl *.lot *.toc *.lof

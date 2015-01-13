@@ -8,3 +8,7 @@ keywords
 - Bluetooth
 - Scattering Network
 - piconet
+
+- Context-based Scoping
+　- 様々なコンテキストをベースとした情報取得
+　
